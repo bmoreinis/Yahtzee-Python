@@ -114,7 +114,7 @@ def count_neighbors(needed):
         gap = dice[i+1]-dice[i]
         if (gap != 1):
             jumps += 1
-            if (i == 2 or i == 3):
+            if (i == 1 or i == 2):
                 jumps = 5
     gap = 5-needed
     if (jumps > gap):
@@ -196,5 +196,4 @@ def play_game():
     
 #main
 play_game()
-
 
