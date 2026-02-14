@@ -85,7 +85,6 @@ def check_full():
     for d in range(5):
         toCount = dice[d]
         counts[toCount] += 1
-    print(*counts,sep=", ")
     for d in range (7):
         if (counts[d] == 3):
             house +=2;
